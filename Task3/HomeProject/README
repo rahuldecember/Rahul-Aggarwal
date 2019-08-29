@@ -1,0 +1,25 @@
+This Automation suite uses below tools and libraries
+
+1, Rest Assured
+2, Maven
+3, Java
+
+
+To Use the Framework, Follow below mentioned steps
+
+1, Open/Import the suite in Eclipse
+2, Right Click on below mentioned xml files from the project and click on Run As -> TestNG Suite
+	-AllTests.xml
+	-Products.xml
+	-Categories.xml
+	-Service.xml
+	-Stores.xml
+	
+To View Test Report
+	
+1, Go to project folder in your drive.
+2, Open Test-Output Folder
+3, Click on Index.html it will open report in browser.
+
+
+

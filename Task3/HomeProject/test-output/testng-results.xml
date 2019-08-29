@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="19" total="24" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-29T13:22:38 BST" name="N26 API Test Suite" finished-at="2019-08-29T13:22:39 BST" duration-ms="996">
+    <groups>
+      <group name="Stores">
+        <method signature="AddStore.AddStores1()[pri:0, instance:Stores.AddStore@68c72235]" name="AddStores1" class="Stores.AddStore"/>
+        <method signature="DeleteStore.DeleteProduct1()[pri:0, instance:Stores.DeleteStore@10959ece]" name="DeleteProduct1" class="Stores.DeleteStore"/>
+        <method signature="DeleteStore.DeleteProduct2()[pri:0, instance:Stores.DeleteStore@10959ece]" name="DeleteProduct2" class="Stores.DeleteStore"/>
+        <method signature="GetAllStore.GetAllProduct1()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" name="GetAllProduct1" class="Stores.GetAllStore"/>
+        <method signature="GetStoreByID.GetStoreByID1()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" name="GetStoreByID1" class="Stores.GetStoreByID"/>
+      </group> <!-- Stores -->
+    </groups>
+    <test started-at="2019-08-29T13:22:38 BST" name="N26 API Smoke Test" finished-at="2019-08-29T13:22:39 BST" duration-ms="996">
+      <class name="Stores.GetAllStore">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:38 BST" name="beforeSuite" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:38 BST" name="beforeTest" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:38 BST" name="afterClass" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:38 BST" name="afterMethod" finished-at="2019-08-29T13:22:38 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:38 BST" name="afterTest" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:38 BST" name="beforeSuite" finished-at="2019-08-29T13:22:38 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:38 BST" name="afterSuite" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:38 BST" name="beforeMethod" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:38 BST" name="beforeClass" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:38 BST" name="beforeTest" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:39 BST" name="beforeMethod" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:39 BST" name="beforeClass" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="GetAllProduct1()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:39 BST" name="GetAllProduct1" finished-at="2019-08-29T13:22:39 BST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllProduct1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:39 BST" name="afterMethod" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:39 BST" name="afterSuite" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:39 BST" name="beforeMethod" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:39 BST" name="beforeClass" finished-at="2019-08-29T13:22:39 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:39 BST" name="beforeSuite" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:39 BST" name="afterMethod" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:39 BST" name="afterClass" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:39 BST" name="beforeTest" finished-at="2019-08-29T13:22:39 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:39 BST" name="afterTest" finished-at="2019-08-29T13:22:39 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:39 BST" name="afterClass" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:39 BST" name="afterTest" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Stores.GetAllStore@3a6bb9bf]" started-at="2019-08-29T13:22:39 BST" name="afterSuite" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Stores.GetAllStore -->
+      <class name="Stores.GetStoreByID">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:38 BST" name="beforeSuite" finished-at="2019-08-29T13:22:38 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:38 BST" name="beforeTest" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:38 BST" name="beforeClass" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:38 BST" name="afterClass" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:38 BST" name="afterTest" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:38 BST" name="beforeSuite" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:38 BST" name="beforeClass" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:38 BST" name="afterSuite" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:38 BST" name="beforeMethod" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:38 BST" name="beforeTest" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:38 BST" name="afterMethod" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:38 BST" name="beforeMethod" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="GetStoreByID1()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:38 BST" name="GetStoreByID1" finished-at="2019-08-29T13:22:39 BST" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetStoreByID1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:39 BST" name="afterMethod" finished-at="2019-08-29T13:22:39 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:39 BST" name="afterClass" finished-at="2019-08-29T13:22:39 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:39 BST" name="afterTest" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:39 BST" name="beforeTest" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:39 BST" name="beforeClass" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:39 BST" name="afterClass" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:39 BST" name="beforeSuite" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:39 BST" name="afterMethod" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:39 BST" name="afterSuite" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:39 BST" name="beforeMethod" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:39 BST" name="afterTest" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Stores.GetStoreByID@6b8ca3c8]" started-at="2019-08-29T13:22:39 BST" name="afterSuite" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Stores.GetStoreByID -->
+      <class name="Stores.AddStore">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:38 BST" name="beforeSuite" finished-at="2019-08-29T13:22:38 BST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:38 BST" name="beforeTest" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:38 BST" name="afterClass" finished-at="2019-08-29T13:22:38 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:38 BST" name="afterTest" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:38 BST" name="afterMethod" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:38 BST" name="beforeClass" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:38 BST" name="beforeMethod" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:38 BST" name="afterSuite" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:38 BST" name="beforeSuite" finished-at="2019-08-29T13:22:38 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:38 BST" name="beforeTest" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="AddStores1()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:39 BST" name="AddStores1" finished-at="2019-08-29T13:22:39 BST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddStores1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:39 BST" name="beforeMethod" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:39 BST" name="beforeClass" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:39 BST" name="afterMethod" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:39 BST" name="afterClass" finished-at="2019-08-29T13:22:39 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:39 BST" name="afterMethod" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:39 BST" name="beforeSuite" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:39 BST" name="afterSuite" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:39 BST" name="beforeMethod" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:39 BST" name="afterTest" finished-at="2019-08-29T13:22:39 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:39 BST" name="beforeTest" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:39 BST" name="beforeClass" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:39 BST" name="afterClass" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:39 BST" name="afterTest" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Stores.AddStore@68c72235]" started-at="2019-08-29T13:22:39 BST" name="afterSuite" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Stores.AddStore -->
+      <class name="Stores.DeleteStore">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:38 BST" name="beforeSuite" finished-at="2019-08-29T13:22:38 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:38 BST" name="beforeTest" finished-at="2019-08-29T13:22:38 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:38 BST" name="afterTest" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:38 BST" name="afterSuite" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:38 BST" name="afterClass" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:38 BST" name="afterMethod" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:38 BST" name="beforeMethod" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:38 BST" name="beforeTest" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:38 BST" name="beforeSuite" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:38 BST" name="beforeClass" finished-at="2019-08-29T13:22:38 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:39 BST" name="beforeClass" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="DeleteProduct1()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:39 BST" name="DeleteProduct1" finished-at="2019-08-29T13:22:39 BST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteProduct1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:39 BST" name="beforeMethod" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:39 BST" name="beforeMethod" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="DeleteProduct2()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:39 BST" name="DeleteProduct2" finished-at="2019-08-29T13:22:39 BST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteProduct2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:39 BST" name="afterMethod" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:39 BST" name="afterMethod" finished-at="2019-08-29T13:22:39 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:39 BST" name="afterClass" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:39 BST" name="beforeTest" finished-at="2019-08-29T13:22:39 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:39 BST" name="beforeClass" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:39 BST" name="afterClass" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:39 BST" name="afterTest" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:39 BST" name="afterSuite" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:39 BST" name="beforeMethod" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:39 BST" name="beforeSuite" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:39 BST" name="afterMethod" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:39 BST" name="afterTest" finished-at="2019-08-29T13:22:39 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Stores.DeleteStore@10959ece]" started-at="2019-08-29T13:22:39 BST" name="afterSuite" finished-at="2019-08-29T13:22:39 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Stores.DeleteStore -->
+    </test> <!-- N26 API Smoke Test -->
+  </suite> <!-- N26 API Test Suite -->
+</testng-results>

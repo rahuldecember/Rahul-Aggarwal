@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="N26 API Test Suite" time-out="300">
+
+	<test name="N26 API Smoke Test" verbose="1" time-out="5000">
+		<groups>
+			<run>
+				<include name="Products" />
+			</run>
+			
+		</groups>
+		
+		<packages>
+            <package name="Products"/>
+            
+        </packages>
+
+		<classes>
+			<class
+				name="Products.ProductE2E">
+			
+			</class>
+			
+			
+			<class
+				name="Stores.StoreE2E">
+				
+			</class>
+			
+			
+			<class
+				name="Services.ServiceE2E">
+				
+			</class>
+			
+			
+			<class
+				name="Categories.CategoryE2E">
+				
+			</class>
+			
+			<class
+				name="Utilities.Version">
+				
+			</class>	
+			
+			<class
+				name="Utilities.HealthCheck">
+				
+			</class> 
+			
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,289 @@
+<html>
+<head>
+<title>TestNG:  N26 API E2E Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>N26 API E2E Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>42/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 29 13:07:08 BST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>1 seconds (1946 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Categories.CategoryE2E.AddCategory()'><b>AddCategory</b><br>Test class: Categories.CategoryE2E</td>
+<td></td>
+<td>0</td>
+<td>Categories.CategoryE2E@1613674b</td></tr>
+<tr>
+<td title='Categories.AddCategory.AddCategoryInValidpayload()'><b>AddCategoryInValidpayload</b><br>Test class: Categories.AddCategory</td>
+<td></td>
+<td>0</td>
+<td>Categories.AddCategory@120f102b</td></tr>
+<tr>
+<td title='Categories.AddCategory.AddCategoryValidPayload()'><b>AddCategoryValidPayload</b><br>Test class: Categories.AddCategory</td>
+<td></td>
+<td>0</td>
+<td>Categories.AddCategory@120f102b</td></tr>
+<tr>
+<td title='Products.ProductE2E.AddProduct()'><b>AddProduct</b><br>Test class: Products.ProductE2E</td>
+<td></td>
+<td>0</td>
+<td>Products.ProductE2E@2accdbb5</td></tr>
+<tr>
+<td title='Products.AddProduct.AddProductWithActualPayLoad()'><b>AddProductWithActualPayLoad</b><br>Test class: Products.AddProduct</td>
+<td></td>
+<td>0</td>
+<td>Products.AddProduct@29e495ff</td></tr>
+<tr>
+<td title='Products.AddProduct.AddProductWithMissingMandatoryKeyInJson()'><b>AddProductWithMissingMandatoryKeyInJson</b><br>Test class: Products.AddProduct</td>
+<td></td>
+<td>0</td>
+<td>Products.AddProduct@29e495ff</td></tr>
+<tr>
+<td title='Services.ServiceE2E.AddService()'><b>AddService</b><br>Test class: Services.ServiceE2E</td>
+<td></td>
+<td>0</td>
+<td>Services.ServiceE2E@27ff5d15</td></tr>
+<tr>
+<td title='Services.AddService.AddServices1()'><b>AddServices1</b><br>Test class: Services.AddService</td>
+<td></td>
+<td>0</td>
+<td>Services.AddService@66498326</td></tr>
+<tr>
+<td title='Stores.StoreE2E.AddStore()'><b>AddStore</b><br>Test class: Stores.StoreE2E</td>
+<td></td>
+<td>0</td>
+<td>Stores.StoreE2E@6631f5ca</td></tr>
+<tr>
+<td title='Stores.AddStore.AddStores1()'><b>AddStores1</b><br>Test class: Stores.AddStore</td>
+<td></td>
+<td>0</td>
+<td>Stores.AddStore@44821a96</td></tr>
+<tr>
+<td title='Categories.CategoryE2E.DeleteCategory()'><b>DeleteCategory</b><br>Test class: Categories.CategoryE2E</td>
+<td></td>
+<td>0</td>
+<td>Categories.CategoryE2E@1613674b</td></tr>
+<tr>
+<td title='Categories.DeleteCategory.DeleteCategory1()'><b>DeleteCategory1</b><br>Test class: Categories.DeleteCategory</td>
+<td></td>
+<td>0</td>
+<td>Categories.DeleteCategory@41fecb8b</td></tr>
+<tr>
+<td title='Categories.DeleteCategory.DeleteCategory2()'><b>DeleteCategory2</b><br>Test class: Categories.DeleteCategory</td>
+<td></td>
+<td>0</td>
+<td>Categories.DeleteCategory@41fecb8b</td></tr>
+<tr>
+<td title='Products.ProductE2E.DeleteProduct()'><b>DeleteProduct</b><br>Test class: Products.ProductE2E</td>
+<td></td>
+<td>0</td>
+<td>Products.ProductE2E@2accdbb5</td></tr>
+<tr>
+<td title='Products.DeleteProduct.DeleteProduct1()'><b>DeleteProduct1</b><br>Test class: Products.DeleteProduct</td>
+<td></td>
+<td>0</td>
+<td>Products.DeleteProduct@be35cd9</td></tr>
+<tr>
+<td title='Stores.DeleteStore.DeleteProduct1()'><b>DeleteProduct1</b><br>Test class: Stores.DeleteStore</td>
+<td></td>
+<td>0</td>
+<td>Stores.DeleteStore@a3d8174</td></tr>
+<tr>
+<td title='Products.DeleteProduct.DeleteProduct2()'><b>DeleteProduct2</b><br>Test class: Products.DeleteProduct</td>
+<td></td>
+<td>0</td>
+<td>Products.DeleteProduct@be35cd9</td></tr>
+<tr>
+<td title='Stores.DeleteStore.DeleteProduct2()'><b>DeleteProduct2</b><br>Test class: Stores.DeleteStore</td>
+<td></td>
+<td>0</td>
+<td>Stores.DeleteStore@a3d8174</td></tr>
+<tr>
+<td title='Services.DeleteService.DeleteService1()'><b>DeleteService1</b><br>Test class: Services.DeleteService</td>
+<td></td>
+<td>0</td>
+<td>Services.DeleteService@cad498c</td></tr>
+<tr>
+<td title='Services.DeleteService.DeleteService2()'><b>DeleteService2</b><br>Test class: Services.DeleteService</td>
+<td></td>
+<td>0</td>
+<td>Services.DeleteService@cad498c</td></tr>
+<tr>
+<td title='Stores.StoreE2E.DeleteStore()'><b>DeleteStore</b><br>Test class: Stores.StoreE2E</td>
+<td></td>
+<td>0</td>
+<td>Stores.StoreE2E@6631f5ca</td></tr>
+<tr>
+<td title='Services.ServiceE2E.DeleteStore()'><b>DeleteStore</b><br>Test class: Services.ServiceE2E</td>
+<td></td>
+<td>0</td>
+<td>Services.ServiceE2E@27ff5d15</td></tr>
+<tr>
+<td title='Categories.CategoryE2E.GetAllCategory()'><b>GetAllCategory</b><br>Test class: Categories.CategoryE2E</td>
+<td></td>
+<td>0</td>
+<td>Categories.CategoryE2E@1613674b</td></tr>
+<tr>
+<td title='Categories.GetAllCategory.GetAllCategory1()'><b>GetAllCategory1</b><br>Test class: Categories.GetAllCategory</td>
+<td></td>
+<td>0</td>
+<td>Categories.GetAllCategory@625732</td></tr>
+<tr>
+<td title='Products.ProductE2E.GetAllProduct()'><b>GetAllProduct</b><br>Test class: Products.ProductE2E</td>
+<td></td>
+<td>0</td>
+<td>Products.ProductE2E@2accdbb5</td></tr>
+<tr>
+<td title='Products.GetAllProduct.GetAllProduct1()'><b>GetAllProduct1</b><br>Test class: Products.GetAllProduct</td>
+<td></td>
+<td>0</td>
+<td>Products.GetAllProduct@41e1e210</td></tr>
+<tr>
+<td title='Stores.GetAllStore.GetAllProduct1()'><b>GetAllProduct1</b><br>Test class: Stores.GetAllStore</td>
+<td></td>
+<td>0</td>
+<td>Stores.GetAllStore@1ba9117e</td></tr>
+<tr>
+<td title='Services.ServiceE2E.GetAllService()'><b>GetAllService</b><br>Test class: Services.ServiceE2E</td>
+<td></td>
+<td>0</td>
+<td>Services.ServiceE2E@27ff5d15</td></tr>
+<tr>
+<td title='Services.GetAllService.GetAllServiceWithOutQueryParameters()'><b>GetAllServiceWithOutQueryParameters</b><br>Test class: Services.GetAllService</td>
+<td></td>
+<td>0</td>
+<td>Services.GetAllService@1e6454ec</td></tr>
+<tr>
+<td title='Services.GetAllService.GetAllServiceWithQueryParameters()'><b>GetAllServiceWithQueryParameters</b><br>Test class: Services.GetAllService</td>
+<td></td>
+<td>0</td>
+<td>Services.GetAllService@1e6454ec</td></tr>
+<tr>
+<td title='Stores.StoreE2E.GetAllStore()'><b>GetAllStore</b><br>Test class: Stores.StoreE2E</td>
+<td></td>
+<td>0</td>
+<td>Stores.StoreE2E@6631f5ca</td></tr>
+<tr>
+<td title='Categories.GetCategoryByID.GetCategoryByID1()'><b>GetCategoryByID1</b><br>Test class: Categories.GetCategoryByID</td>
+<td></td>
+<td>0</td>
+<td>Categories.GetCategoryByID@5ace1ed4</td></tr>
+<tr>
+<td title='Categories.CategoryE2E.GetCategoryById()'><b>GetCategoryById</b><br>Test class: Categories.CategoryE2E</td>
+<td></td>
+<td>0</td>
+<td>Categories.CategoryE2E@1613674b</td></tr>
+<tr>
+<td title='Products.ProductE2E.GetProductById()'><b>GetProductById</b><br>Test class: Products.ProductE2E</td>
+<td></td>
+<td>0</td>
+<td>Products.ProductE2E@2accdbb5</td></tr>
+<tr>
+<td title='Products.GetProductByID.GetProductById1()'><b>GetProductById1</b><br>Test class: Products.GetProductByID</td>
+<td></td>
+<td>0</td>
+<td>Products.GetProductByID@b62d79</td></tr>
+<tr>
+<td title='Services.GetServiceByID.GetServiceById()'><b>GetServiceById</b><br>Test class: Services.GetServiceByID</td>
+<td></td>
+<td>0</td>
+<td>Services.GetServiceByID@51dcb805</td></tr>
+<tr>
+<td title='Services.ServiceE2E.GetServiceById()'><b>GetServiceById</b><br>Test class: Services.ServiceE2E</td>
+<td></td>
+<td>0</td>
+<td>Services.ServiceE2E@27ff5d15</td></tr>
+<tr>
+<td title='Stores.GetStoreByID.GetStoreByID1()'><b>GetStoreByID1</b><br>Test class: Stores.GetStoreByID</td>
+<td></td>
+<td>0</td>
+<td>Stores.GetStoreByID@4944252c</td></tr>
+<tr>
+<td title='Stores.StoreE2E.GetStoreById()'><b>GetStoreById</b><br>Test class: Stores.StoreE2E</td>
+<td></td>
+<td>0</td>
+<td>Stores.StoreE2E@6631f5ca</td></tr>
+<tr>
+<td title='Utilities.HealthCheck.HealthCheckErrorTest()'><b>HealthCheckErrorTest</b><br>Test class: Utilities.HealthCheck</td>
+<td></td>
+<td>0</td>
+<td>Utilities.HealthCheck@272ed83b</td></tr>
+<tr>
+<td title='Utilities.HealthCheck.HealthCheckTest()'><b>HealthCheckTest</b><br>Test class: Utilities.HealthCheck</td>
+<td></td>
+<td>0</td>
+<td>Utilities.HealthCheck@272ed83b</td></tr>
+<tr>
+<td title='Utilities.Version.VersionTest()'><b>VersionTest</b><br>Test class: Utilities.Version</td>
+<td></td>
+<td>0</td>
+<td>Utilities.Version@732c2a62</td></tr>
+</table><p>
+</body>
+</html>
